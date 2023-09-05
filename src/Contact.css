@@ -1,0 +1,65 @@
+
+
+
+/* Reset some default margin and padding for body and HTML elements */
+body, html {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-color: #f5f5f5; /* Background color for the entire page */
+height: 100%; /* Ensure the page takes up the full viewport height */
+}
+
+/* Style the layout container */
+.layo {
+    display: flex;
+    height: 100vh;
+}
+
+/* Style the centered content */
+.centere {
+    padding-top: 10rem;
+    padding-left: 7rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+.footer {
+    background: rgba(255, 255, 255, 0.2); /* Apply a semi-transparent background */
+    backdrop-filter: blur(2px); /* Add a blur effect to create glassmorphism */
+    color: #0c0a0a; /* Text color in the footer */
+    padding: 20px 0;
+    position: fixed; /* Fix the footer at the bottom */
+    width: 100%; /* Make the footer span the entire width */
+    bottom: 0; /* Position it at the bottom of the viewport */
+    left: 0; /* Align it to the left */
+  }
+
+/* Style the footer content */
+.footer-content {
+max-width: 800px; /* Adjust this value as needed */
+margin: 0 auto; /* Center the content horizontally */
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+/* Style the "Contact Us" and "Follow Us" sections in the footer */
+.contact-info, .social-links {
+flex: 1;
+padding: 10px;
+}
+
+/* Style the headings in the footer */
+h4 {
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+/* Style the links in the "Follow Us" section */
+
+/* Style the copyright text at the bottom */
+.copyright {
+text-align: center;
+margin-top: 20px;
+}
